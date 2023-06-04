@@ -1,0 +1,62 @@
+    #scrollbar-container {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .scrollbar-track {
+        width: 4px;
+        background: rgba(38, 38, 38, 0.5);
+    }
+
+    .scrollbar-thumb {
+        background: rgba(115, 115, 115, 0.75);
+        width: 4px
+    }
+
+    .scrollbar-thumb:hover {
+        background: rgba(161, 161, 170, 0.75);
+    }
+
+    .floating1 { 
+        animation-name: floating1;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+     
+    @keyframes floating1 {
+        0% { transform: translate(0,  0px); }
+        50%  { transform: translate(0, 8px); }
+        100%   { transform: translate(0, -0px); }   
+    }
+
+    .floating2 { 
+        animation-name: floating2;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+     
+    @keyframes floating2 {
+        0% { transform: translate(0,  -0px); }
+        50%  { transform: translate(0, -8px); }
+        100%   { transform: translate(0, 0px); }
+    }
+  
+    .glowing { 
+        animation-name: glowing;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes glowing {
+        0% { text-shadow: 0 0 -0px #fbbf24; }
+        40% { text-shadow: 0 0 4px #fbbf24; }
+        60% { text-shadow: 0 0 8px #fbbf24; }
+        60% { text-shadow: 0 0 0px #fbbf24; }
+    }

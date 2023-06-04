@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Kitchen - Taste of UDIPI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <!-- <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5"> -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/926d769804.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/js/config.js"></script>
+</head>
+<body class="overflow-scroll">
+    <header>
+        <nav class="fixed top-0 w-full h-12 z-50 bg-transparent transition-all duration-300 ease-in-out
+                        backdrop-filter backdrop-blur-lg bg-opacity-30 border-gray-200">
+                <div class="h-full flex justify-center items-center gap-24 text-yellow-400 font-montserrat
+                            [&>a]:px-4 py-1 [&>a]:rounded-3xl [&>a:hover]:bg-neutral-900/50 [&>a]:transition-all [&>a]:duration-500 [&>a]:ease-in-out">
+                    <a class="group" href="/index.html"><p class="group-hover:drop-shadow-[0_0_5px_rgba(251,191,36,1)] transition-all duration-500 ease-in-out">Home</p></a>
+                    <a class="group" href="/pages/about.html"><p class="group-hover:drop-shadow-[0_0_5px_rgba(251,191,36,1)] transition-all duration-500 ease-in-out">About</p></a>
+                    <a class="group" href="#"><p class="group-hover:drop-shadow-[0_0_5px_rgba(251,191,36,1)] transition-all duration-500 ease-in-out">Menu</p></a>
+                    <a class="group" href="/pages/gallery.html"><p class="group-hover:drop-shadow-[0_0_5px_rgba(251,191,36,1)] transition-all duration-500 ease-in-out">Gallery</p></a>
+                    <a class="group" href="/pages/contact.html"><p class="group-hover:drop-shadow-[0_0_5px_rgba(251,191,36,1)] transition-all duration-500 ease-in-out">Contact</p></a>
+                </div>
+        </nav>
+    </header>
+    <div class="w-full h-full" id="scrollbar-container">
+        <main class="relative">
+            <div class="relative bg-cover bg-center bg-fixed bg-neutral-800">
+                <div class="flex flex-col w-full h-full items-center justify-center py-20">
+                    <div class="flex flex-col items-center justify-center w-[48rem] h-full my-8 bg-neutral-900/25 rounded-xl py-12
+                                backdrop-filter backdrop-blur-sm bg-opacity-30 border-gray-200">
+                        <p class="font-montserrat text-2xl ml-4 mt-0.5 tracking-widest text-amber-400 subpixel-antialiased glowing cursor-default">
+                            SOUTH INDIAN
+                        </p>
+                        <div class="relative w-[26rem] h-[16rem] bg-center bg-cover rounded-xl px-7 py-8 group transition-all duration-500 ease-in-out hover:drop-shadow-[0_0_5px_rgba(251,191,36,0.4)] mt-4" style="background-image: url('/assets/south_indian.jpg');">
+                            <span class="absolute inset-0 w-full h-full bg-neutral-900/10 rounded-lg 
+                                transition-all duration-300 ease-in-out group-hover:bg-neutral-800/0"></span>
+                        </div>
+                        <div class="flex mt-8 mb-0.5 gap-16">
+                            <div class="flex flex-col">
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Onion Roast &ensp; <span class="text-amber-400 text-xl">&#8377; 40</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Sambar vada &ensp; <span class="text-amber-400 text-xl">&#8377; 30</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Maddur vada &ensp; <span class="text-amber-400 text-xl">&#8377; 25</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Mysore bonda &ensp; <span class="text-amber-400 text-xl">&#8377; 30</span></p>
+                            </div>
+                            <div class="flex flex-col">
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Masala Roast &ensp; <span class="text-amber-400 text-xl">&#8377; 45</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Set Dosa &ensp; <span class="text-amber-400 text-xl">&#8377; 45</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Vada pav &ensp; <span class="text-amber-400 text-xl">&#8377; 45</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Punjabi lassi &ensp; <span class="text-amber-400 text-xl">&#8377; 65</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center w-[48rem] h-full my-8 bg-neutral-900/25 rounded-xl py-16
+                                backdrop-filter backdrop-blur-sm bg-opacity-30 border-gray-200">
+                        <p class="font-montserrat text-2xl ml-4 mt-0.5 tracking-widest text-amber-400 subpixel-antialiased glowing cursor-default">
+                            CHINESE & NORTH INDIAN
+                        </p>
+                        <div class="relative w-[26rem] h-[16rem] bg-center bg-cover rounded-xl px-7 py-8 group transition-all duration-500 ease-in-out hover:drop-shadow-[0_0_5px_rgba(251,191,36,0.4)] mt-4" style="background-image: url('/assets/chinese.webp');">
+                            <span class="absolute inset-0 w-full h-full bg-neutral-900/10 rounded-lg 
+                                transition-all duration-300 ease-in-out group-hover:bg-neutral-800/0"></span>
+                        </div>
+                        <div class="flex mt-8 mb-0.5 gap-16">
+                            <div class="flex flex-col">
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Veg fried rice &ensp; <span class="text-amber-400 text-xl">&#8377; 90</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Veg noodles &ensp; <span class="text-amber-400 text-xl">&#8377; 90</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Paneer fried rice &ensp; <span class="text-amber-400 text-xl">&#8377; 125</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Mushroom fried rice &ensp; <span class="text-amber-400 text-xl">&#8377; 125</span></p>
+                            </div>
+                            <div class="flex flex-col">
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Gobi manchurian &ensp; <span class="text-amber-400 text-xl">&#8377; 95</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Gobi chilli &ensp; <span class="text-amber-400 text-xl">&#8377; 95</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Paneer manchurian &ensp; <span class="text-amber-400 text-xl">&#8377; 125</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Paneer chilli &ensp; <span class="text-amber-400 text-xl">&#8377; 125</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center w-[48rem] h-full my-8 bg-neutral-900/25 rounded-xl py-16
+                                backdrop-filter backdrop-blur-sm bg-opacity-30 border-gray-200">
+                        <p class="font-montserrat text-2xl ml-4 mt-0.5 tracking-widest text-amber-400 subpixel-antialiased glowing cursor-default">
+                            FRESH JUICE & MILKSHAKES
+                        </p>
+                        <div class="relative w-[26rem] h-[16rem] bg-center bg-cover rounded-xl px-7 py-8 group transition-all duration-500 ease-in-out hover:drop-shadow-[0_0_5px_rgba(251,191,36,0.4)] mt-4" style="background-image: url('/assets/drinks.jpg');">
+                            <span class="absolute inset-0 w-full h-full bg-neutral-900/10 rounded-lg 
+                                transition-all duration-300 ease-in-out group-hover:bg-neutral-800/0"></span>
+                        </div>
+                        <div class="flex mt-8 mb-0.5 gap-16">
+                            <div class="flex flex-col">
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Fresh Lime &ensp; <span class="text-amber-400 text-xl">&#8377; 50</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Grape juice &ensp; <span class="text-amber-400 text-xl">&#8377; 70</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Water melon juice &ensp; <span class="text-amber-400 text-xl">&#8377; 70</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Pineapple juice rice &ensp; <span class="text-amber-400 text-xl">&#8377; 70</span></p>
+                            </div>
+                            <div class="flex flex-col">
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Vanila milkshake &ensp; <span class="text-amber-400 text-xl">&#8377; 80</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Chocolate milkshake &ensp; <span class="text-amber-400 text-xl">&#8377; 80</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Oreo milkshake &ensp; <span class="text-amber-400 text-xl">&#8377; 80</span></p>
+                                <p class="font-noto_sans text-lg subpixel-antialiased text-white leading-loose">Chikku milkshake &ensp; <span class="text-amber-400 text-xl">&#8377; 100</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="relative flex justify-center items-center gap-x-96 h-28 bg-neutral-800">
+            <div class="flex gap-2">
+                <a class="group" href="https://wa.me/+916384487399" target="_blank">
+                    <div class="flex justify-center items-center bg-neutral-900/50 w-8 h-8 rounded-full text-xl text-amber-400
+                                backdrop-filter backdrop-blur-lg bg-opacity-30">
+                        <i class="fa-brands fa-whatsapp group-hover:drop-shadow-[0_0_5px_rgba(251,191,36,0.5)] transition-all duration-500 ease-in-out text-base"></i>
+                    </div>
+                </a>
+                <a class="group" href="https://instagram.com/social_kitchen_palakkad/" target="_blank">
+                    <div class="flex justify-center items-center bg-neutral-900/50 w-8 h-8 rounded-full text-xl text-amber-400
+                                backdrop-filter backdrop-blur-lg bg-opacity-30">
+                        <i class="fa-brands fa-instagram group-hover:drop-shadow-[0_0_5px_rgba(251,191,36,0.5)] transition-all duration-500 ease-in-out text-base"></i>
+                    </div>
+                </a>
+                <a class="group" href="https://facebook.com/people/Social-Kitchen-Palakkad/100066697874114/" target="_blank">
+                    <div class="flex justify-center items-center bg-neutral-900/50 w-8 h-8 rounded-full text-xl text-amber-400
+                                backdrop-filter backdrop-blur-lg bg-opacity-30">
+                        <i class="fa-brands fa-facebook-f group-hover:drop-shadow-[0_0_5px_rgba(251,191,36,0.5)] transition-all duration-500 ease-in-out text-base"></i>
+                    </div>
+                </a>
+                <p class="font-montserrat text-xl ml-4 mt-0.5 tracking-widest text-amber-400 subpixel-antialiased glowing cursor-default">
+                    SOCIAL KITCHEN
+                </p>
+            </div>
+            <p class="text-sm font-montserrat text-amber-400 tracking-wide">
+            &copy 2023 All rights reserved | Social Kitchen Palakkad
+            </p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/smooth-scrollbar@latest/dist/smooth-scrollbar.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
